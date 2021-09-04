@@ -1,7 +1,7 @@
 <template>
   <div >
     <div class="min-h-screen bg-purple-light py-6">
-      <div class="sm:mx-auto bg-white p-3 my-10 mx-5 rounded sm:py-5 max-w-screen-sm font-sans">
+      <div class="sm:mx-auto bg-white p-3 my-10 mx-5 rounded sm:py-5 max-w-lg font-sans">
         <div class="max-w-md mx-auto">
           <div class="text-3xl font-extralight py-3 my-2 text-center">
             <h1>Welcome Back!</h1>
@@ -9,10 +9,10 @@
           <div class="placeholder-gray-800::placeholder">
             <form @submit="onSubmit">
             <div class="py-2">
-              <input type="email" v-model="text" name="email" placeholder="Enter Your Email Address..." class="w-full font-thin p-3 pl-4 border rounded-3xl focus:outline-none focus:ring-2 focus:ring-purple-600 focus:bg-purple-100">
+              <input type="email" v-model="text" name="email" placeholder="Enter Your Email Address..." class="w-full font-thin p-2 pl-4 border rounded-3xl focus:outline-none focus:ring-2 focus:ring-purple-600 focus:bg-purple-100">
             </div>
             <div class="py-2">
-              <input type="text" v-model="text" name="text" placeholder="Password" class="w-full font-thin p-3 pl-4 border rounded-3xl focus:outline-none focus:ring-2 focus:ring-purple-600 focus:bg-purple-100">
+              <input type="text" v-model="text" name="text" placeholder="Password" class="w-full font-thin p-2 pl-4 border rounded-3xl focus:outline-none focus:ring-2 focus:ring-purple-600 focus:bg-purple-100">
             </div>
             <div class="py-2">
               <input type="checkbox" v-model="Remember" name="remember"/>
@@ -27,6 +27,7 @@
       </div>
   </div>
   </div>
+    
 </template>
 
 <style>
