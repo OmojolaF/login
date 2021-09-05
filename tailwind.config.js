@@ -12,6 +12,9 @@ module.exports = {
           shine: '#224abe',
           bord: '#d1d3e2',
         },
+      },
+      fontFamily: {
+        'nunito': ['nunito', 'sans-serif']
       }
     },
   },
