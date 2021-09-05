@@ -8,6 +8,9 @@ module.exports = {
           light: '#435c94',
           DEFAULT: '#858796',
           dark: '#4e73df',
+          bright: '#2e59d9',
+          shine: '#224abe',
+          bord: '#d1d3e2',
         },
       }
     },

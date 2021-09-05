@@ -1,33 +1,33 @@
 <template>
   <div >
     <div class="min-h-screen bg-purple-light py-6">
-      <div class="sm:mx-auto bg-white p-3 my-10 mx-5 rounded sm:py-5 max-w-lg font-sans">
+      <div class="sm:mx-auto bg-white px-9 py-4 my-10 mx-5 rounded sm:px-14 sm:py-8 max-w-lg">
         <div class="max-w-md mx-auto">
-          <div class="text-3xl font-extralight py-3 my-2 text-center">
+          <div class="text-2xl font-normal py-2 my-2 text-gray-900 text-center">
             <h1>Welcome Back!</h1>
           </div>
           <div class="placeholder-gray-800::placeholder">
             <form @submit="onSubmit">
             <div class="py-2">
-              <input type="email" v-model="text" name="email" placeholder="Enter Your Email Address..." class="w-full font-thin p-2 pl-4 border rounded-3xl focus:outline-none focus:ring-2 focus:ring-purple-600 focus:bg-purple-100">
+              <input type="email" name="email" placeholder="Enter Email Address..." class="w-full h-12 text-sm font-normal p-4 border border-purple-bord rounded-full focus:outline-none focus:ring-2">
             </div>
             <div class="py-2">
-              <input type="text" v-model="text" name="text" placeholder="Password" class="w-full font-thin p-2 pl-4 border rounded-3xl focus:outline-none focus:ring-2 focus:ring-purple-600 focus:bg-purple-100">
+              <input type="password" name="password" placeholder="Password" class="w-full h-12 text-sm font-normal p-4 border border-purple-bord rounded-full focus:outline-none focus:ring-2">
             </div>
             <div class="py-2">
-              <input type="checkbox" v-model="Remember" name="remember"/>
-              <label class="mx-2 font-thin text-purple">Remember Me</label>
+              <input type="checkbox" name="remember" id="customCheck" class="focus:outline-none focus:ring-2"/><label for="customCheck" class="mx-2 font-thin text-sm text-purple">Remember Me</label>
             </div>
             </form> 
-            <button class="w-full my-2 py-2 px-5 font-extralight text-white bg-purple-dark rounded-full hover:bg-purple-light transition duration-500 ease-in-out transform hover:translate-y-1">Login</button>
+            <button class="w-full my-2 py-3 px-5 font-normal text-sm text-white bg-purple-dark rounded-full hover:bg-purple-bright focus:outline-none focus:ring">Login</button>
             <hr class="mt-2 mb-2 border-gray-200">
-            <h5 class="text-center text-sm text-purple-dark font-normal hover:text-green-700"><a href="#">Forgot Password?</a></h5> 
+            <h5 class="text-center text-sm text-purple-dark font-normal py-3"><a href="#" class="hover:text-purple-shine hover:underline">Forgot Password?</a></h5> 
           </div>
         </div>
       </div>
   </div>
   </div>
-    
+
+  
 </template>
 
 <style>
